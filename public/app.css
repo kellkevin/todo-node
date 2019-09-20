@@ -1,0 +1,26 @@
+body {
+    font-size: 65%;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    background-color: yellow;
+}
+
+.done {
+    text-decoration: line-through;
+    transition: 30ms;
+}
+
+span {
+    float: right;
+}
+
+#tasks, #todos {
+    min-height: 10em;
+    margin: 0px auto;
+    position: relative;
+}
+
+.task-list li:hover {
+    background-color:lightblue;
+}
