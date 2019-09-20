@@ -21,15 +21,7 @@ Clone the repo and install the dependencies in the command line:
 ```
 npm install
 ```
-/* 
-Rename `nodemon.json-template` to `nodemon.json` and add your MongoDB connection to the environment variables:
-```json
-{
-  "env": {
-    "MONGODB_CONNECTION" : "mongodb://username:password@host1:port/dbname"
-  }
-}
-*/
+Change the Mongoose location in the models folder
 ```
 Then start the server (if using MongoDB locally, be sure to run it before starting the server):
 ```
